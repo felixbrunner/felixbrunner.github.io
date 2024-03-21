@@ -108,20 +108,35 @@
         <h1 class="entry-title">Projects</h1>
         
         <div class="entry-content">
-            <!-- ## Data Science Projects -->
-
-<p>This page presents descriptions of some of the <strong>data projects</strong> I have been involved&nbsp;in.</p>
-<h2>Quality prediction based on time series data in a manufacturing&nbsp;context</h2>
+            <p>This page presents descriptions of some of the <strong>data projects</strong> I have been involved&nbsp;in.</p>
+<h2>Quality prediction based on sensor time series data in a manufacturing&nbsp;context</h2>
 <!-- with [Bond3D](https://www.bond3d.com/), [Fraunhofer IPT](https://www.ipt.fraunhofer.de/), and [dida machine learning](https://dida.do/), 2021-2023 -->
 
-<!-- **Description:** -->
-<p>In this machine learning use case in the manufacturing domain the task is to analyze large amounts of <strong>time series data</strong> recorded from production machines with regards to their predictive power when it comes to the quality of the final products.
-Finding useful patterns in the <strong>sensory recordings</strong> is challenging due to the large data quantities connected to a single outcome label.
-A main task here is filtering and connecting various data sources and combining the data in way that can be ingested by a PyTorch neural network model.
-Multiple predictive model architectures have been tested, spanning from simple statistical models to deep convolutional neural networks.
-An additional emphasis is on <strong><span class="caps">AI</span> explainability</strong> since the production engineers are especially interested in making sense of the findings.
-My role in this project was mainly in conceptualizing and implementing <strong>data pipelines</strong> and predictive algorithms.
-Details about the employed <strong>model architecture</strong> can be found in a three-part article (parts <a href="https://medium.com/dida-machine-learning/explainable-time-series-classification-with-x-rocket-3087b912a08d?source=friends_link&amp;sk=c9e42fa9bfe32cd58f804673ca5aef8c">one</a>, <a href="https://medium.com/dida-machine-learning/inside-x-rocket-explaining-the-explainable-rocket-534b104c4a08?source=friends_link&amp;sk=4222cf1591d49181eff368f97d0bdee0">two</a> and <a href="https://medium.com/dida-machine-learning/x-rocket-to-the-moon-c2848e740243?source=friends_link&amp;sk=a8428dac4867839dc22007196c6a4f87">three</a>), and in the belonging <a href="https://github.com/dida-do/xrocket">code repository</a>.</p>
+<h3>Overview:</h3>
+<p>This project focuses on analyzing large volumes of time series data collected from production machines to determine their predictive power in assessing the quality of final products. Extracting meaningful patterns from sensory recordings presents a challenge due to the vast data quantities associated with a single outcome&nbsp;label.</p>
+<h3>Objectives:</h3>
+<ol>
+<li><strong>Pattern identification:</strong> Identify patterns in time series data correlated with the quality of final products to guide process&nbsp;optimization.</li>
+<li><strong>Data integration:</strong> Filter, connect, and integrate various data sources to construct consistent datasets suitable for predictive&nbsp;modeling.</li>
+<li><strong>Model development:</strong> Conceptualize and implement data pipelines and modeling approaches to develop a machine learning system for quality&nbsp;prediction.</li>
+<li><strong>Algorithm testing:</strong> Test multiple predictive algorithms, including simple statistical models and deep neural networks, to evaluate their efficacy in quality&nbsp;prediction.</li>
+<li><strong><span class="caps">AI</span> explainability:</strong> Emphasize the interpretability of <span class="caps">AI</span> findings to facilitate understanding and interpretation by production&nbsp;engineers.</li>
+</ol>
+<h3>Activities:</h3>
+<ol>
+<li><strong>Data analysis:</strong> Analyzed and visualized large amounts of time series data to discern patterns and&nbsp;trends.</li>
+<li><strong>Data preparation:</strong> Explored, filtered, and connected various data sources to construct consistent datasets suitable for predictive&nbsp;modeling.</li>
+<li><strong>Pipeline development:</strong> Conceptualized and implemented data pipelines to preprocess and prepare data for ingestion by machine learning models in&nbsp;PyTorch.</li>
+<li><strong>Model implementation:</strong> Implemented an interpretable machine learning system to predict product quality in a manufacturing&nbsp;context.</li>
+<li><strong>Algorithm evaluation:</strong> Tested and evaluated various predictive algorithms to identify the most effective approach for quality prediction and <span class="caps">AI</span>&nbsp;explainability.</li>
+</ol>
+<h3>Outcome:</h3>
+<p>The project yielded qualitative insights that serve as valuable guidance for process engineers in optimizing production processes, ultimately enhancing product quality and operational&nbsp;efficiency.</p>
+<h3>Stack:</h3>
+<p>PyTorch, CNNs, <span class="caps">ROCKET</span> model, data wrangling, git, time series classification, explainable <span class="caps">AI</span>,&nbsp;python</p>
+<h3>Additional details and&nbsp;links:</h3>
+<p>In this machine learning use case, various predictive model architectures were tested, including simple statistical models and deep convolutional neural networks. Special emphasis was placed on <span class="caps">AI</span> explainability to facilitate understanding by production&nbsp;engineers.</p>
+<p>For further details on the model architecture and implementation, refer to my three-part article series on the X-<span class="caps">ROCKET</span> architecture (<a href="https://medium.com/dida-machine-learning/explainable-time-series-classification-with-x-rocket-3087b912a08d?source=friends_link&amp;sk=c9e42fa9bfe32cd58f804673ca5aef8c">Part One</a>, <a href="https://medium.com/dida-machine-learning/inside-x-rocket-explaining-the-explainable-rocket-534b104c4a08?source=friends_link&amp;sk=4222cf1591d49181eff368f97d0bdee0">Part Two</a>, and <a href="https://medium.com/dida-machine-learning/x-rocket-to-the-moon-c2848e740243?source=friends_link&amp;sk=a8428dac4867839dc22007196c6a4f87">Part Three</a>), and the corresponding <a href="https://github.com/dida-do/xrocket">code repository</a>.</p>
 <!-- <p align="center"><img src="https://miro.medium.com/v2/resize:fit:1268/format:webp/1*9Xopehn3Z_V8aCr-ZVGCzQ.png" alt="drawing" width="700"/></p> -->
 <p align="center"><img src="assets/drawings/xrocket-full.png" alt="drawing" width="700"/></p>
 
@@ -129,13 +144,31 @@ Details about the employed <strong>model architecture</strong> can be found in a
 <h2>Machine status detection in 3D printing based on infrared image&nbsp;data</h2>
 <!-- with [Bond3D](https://www.bond3d.com/), [Fraunhofer IPT](https://www.ipt.fraunhofer.de/), and [dida machine learning](https://dida.do/), 2021-2023 -->
 
-<!-- **Description:** -->
-<p>The goal of this project is to identify irregularities during an automated cleaning step in industrial additive manufacturing through <strong>computer vision</strong> techniques.
-A visual <strong>deep learning algorithm</strong> detects pollution of the production machine during the printing process, such that damage can be prevented and machine time is saved.
-A core challenge here is to deal with data heterogeneity among various production machines and limited data availability, which was tackled via approaches to <strong>data augmentation</strong>.
-More information about the machine learning use case and the overall project can be found <a href="https://dida.do/projects/contamination-detection-in-industrial-3d-printing">here</a>, <a href="https://www.ipt.fraunhofer.de/de/projekte/ai-gent3d.html">here</a> and <a href="https://www.zukunft-der-wertschoepfung.de/projekte/eranet-ki-gesttztes-generatives-3d-drucken-manunet-aigent3d/">here</a>.
-As an auxiliary result, the labeling tool we created for the <strong>annotation of the image dataset</strong> is described in <a href="https://medium.com/dida-machine-learning/how-to-implement-an-image-labeling-tool-in-a-jupyter-notebook-4aa4099addba?source=friends_link&amp;sk=3ee7eabd27f2bf29226fbd8e970cc1f6">this article</a>, and the belonging code is in <a href="https://github.com/dida-do/public/tree/master/labelingtool">this code repository</a>.
-I contributed to this project in the development of the implemented solution and in the coordination with the project&nbsp;partners.</p>
+<h3>Overview:</h3>
+<p>The objective of this project is to automate the process monitoring in industrial additive manufacturing, specifically targeting the identification of irregularities during the printing process through computer vision techniques. By leveraging visual deep learning algorithms, the system aims to detect pollution of production machines in real-time, thereby preventing damage and optimizing machine&nbsp;utilization.</p>
+<h3>Objectives:</h3>
+<ol>
+<li><strong>Use case definition:</strong> Conduct workshops with domain experts to analyze potential of machine learning approaches to the production&nbsp;environment.</li>
+<li><strong>Automated detection:</strong> Develop a visual deep learning algorithm to identify pollution in production machines during the printing&nbsp;process.</li>
+<li><strong>Data augmentation:</strong> Implement data augmentation techniques to address data heterogeneity among various production machines and limited data&nbsp;availability.</li>
+<li><strong>Model deployment:</strong> Supply a containerized model with <span class="caps">API</span> endpoints for seamless deployment to production&nbsp;machines.</li>
+</ol>
+<h3>Activities:</h3>
+<ol>
+<li><strong>Data collection and pre-processing:</strong> Guided systematic data collection and pre-processing procedures to prepare datasets for machine learning&nbsp;algorithms.</li>
+<li><strong>Labeling process:</strong> Defined the labeling process and implemented an interface for annotating the image datasets to facilitate model&nbsp;training.</li>
+<li><strong>Algorithm development:</strong> Contributed to the development of a visual deep learning algorithm to detect machine pollution in the live production&nbsp;environment.</li>
+<li><strong>Data augmentation:</strong> Applied data augmentation techniques to handle data heterogeneity and improve model&nbsp;robustness.</li>
+<li><strong>Model deployment:</strong> Supplied a containerized model with <span class="caps">API</span> endpoints for deployment to production&nbsp;machines.</li>
+<li><strong>Project coordination:</strong> Coordinated with project partners and represented a five-person project team in meetings, presentations, and reporting activities for&nbsp;stakeholders.</li>
+</ol>
+<h3>Outcome:</h3>
+<p>The project delivered a production-ready system capable of informing operators of potential faults in real-time during an automated cleaning step in industrial additive manufacturing, thereby optimizing machine utilization and preventing&nbsp;damage.</p>
+<h3>Stack:</h3>
+<p>PyTorch, Convolutional neural networks (CNNs), docker, git, OpenCV, FastAPI, Computer vision, pytorch-lightning, ipywidgets,&nbsp;python</p>
+<h3>Additional details and&nbsp;links:</h3>
+<p>For more information on the machine learning use case and the overall project, refer to the project pages of <a href="https://dida.do/projects/contamination-detection-in-industrial-3d-printing">dida</a>, <a href="https://www.ipt.fraunhofer.de/de/projekte/ai-gent3d.html">Fraunhofer <span class="caps">IPT</span></a>, and <a href="https://www.zukunft-der-wertschoepfung.de/projekte/eranet-ki-gesttztes-generatives-3d-drucken-manunet-aigent3d/"><span class="caps">BMBF</span></a>.</p>
+<p>Additionally, details about the labeling tool created for the annotation of the image dataset can be found in <a href="https://medium.com/dida-machine-learning/how-to-implement-an-image-labeling-tool-in-a-jupyter-notebook-4aa4099addba?source=friends_link&amp;sk=3ee7eabd27f2bf29226fbd8e970cc1f6">this article</a> I wrote, and the corresponding code is available in <a href="https://github.com/dida-do/public/tree/master/labelingtool">this code repository</a>.</p>
 <p align="center"><img src="https://cdn.dida.do/labelled-1687853311-(1).jpg" alt="drawing" width="700"/></p>
 <!-- <p align="center"><img src="/content/assets/images/" alt="drawing" width="700"/></p> -->
 
@@ -143,11 +176,27 @@ I contributed to this project in the development of the implemented solution and
 <h2>Automated question answering via retrieval of internal natural language&nbsp;documents</h2>
 <!-- with [dida machine learning](https://dida.do/), 2022 -->
 
-<!-- **Description:** -->
-<p>This line of work aimed to proof the concept of question answering based on internal documents and to gain experience with state-of-the-art <strong><span class="caps">NLP</span></strong> developments.
-An early demo using <strong>extractive</strong> question answering based on <strong>semantic search</strong> is still online <a href="https://dida.do/demos/question-answering">here</a>.
-Later stages explored full-fletched <strong>generative</strong> question answering with the help of <strong>large language models (LLMs)</strong> and <strong>retrieval augmented generation (<span class="caps">RAG</span>)</strong>.
-My role in this project was to make contributions to the codebase and to update the involved developers about the latest trends in research and&nbsp;industry.</p>
+<h3>Overview:</h3>
+<p>The project aimed to integrate a chatbot for question answering (<span class="caps">QA</span>) based on on internal documents into the communication platform used by the employees. This initiative sought to test out state-of-the-art <span class="caps">NLP</span> techniques internally, and to enhance employee productivity by providing instant access to relevant information stored in internal&nbsp;documents.</p>
+<h3>Objectives:</h3>
+<ol>
+<li><strong>Proof of concept:</strong> Demonstrate the feasibility of question answering based on internal documents using state-of-the-art <span class="caps">NLP</span>&nbsp;techniques.</li>
+<li><strong>Demo development:</strong> Create a demo showcasing extractive <span class="caps">QA</span> based on semantic search for initial validation and&nbsp;feedback.</li>
+<li><strong>Proof-of-concept expansion:</strong> Develop a proof-of-concept for automatic question answering with generative <span class="caps">QA</span>, leveraging large language models (LLMs) and retrieval augmented generation (<span class="caps">RAG</span>).</li>
+<li><strong>Knowledge sharing:</strong> Keep developers informed about recent advancements in natural language processing (<span class="caps">NLP</span>) to drive innovation and stay abreast of industry&nbsp;trends.</li>
+</ol>
+<h3>Activities:</h3>
+<ol>
+<li><strong>Demo creation:</strong> Tested extractive <span class="caps">QA</span> in a demo based on a single provided&nbsp;document.</li>
+<li><strong>Proof-of-concept development:</strong> Extended the <span class="caps">QA</span> capabilities by including automatic document retrieval with semantic search and experimented with generative <span class="caps">QA</span> using an <span class="caps">LLM</span>.</li>
+<li><strong>Knowledge sharing:</strong> Provided updates to developers on the latest trends and advancements in <span class="caps">NLP</span> research and industry&nbsp;practices.</li>
+</ol>
+<h3>Outcome:</h3>
+<p>The project successfully delivered a responsive chatbot for document-based extractive <span class="caps">QA</span>, empowering employees with instant access to pertinent information. The chatbot is responsive to all employees, promising to contribute to increased productivity and streamlined communication within the&nbsp;company.</p>
+<h3>Stack:</h3>
+<p>huggingface transformers, haystack, LLMs, document retrieval, semantic search, question answering, <span class="caps">BERT</span>, git, beautifulsoup,&nbsp;python</p>
+<h3>Additional details and&nbsp;links:</h3>
+<p>The project journey began with an early demo showcasing extractive question answering based on semantic search, still accessible online <a href="https://dida.do/demos/question-answering">here</a>. Subsequent stages explored full-fledged generative question answering using large language models (LLMs) and retrieval augmented generation (<span class="caps">RAG</span>)&nbsp;techniques.</p>
 <p align="center"><img src="https://files.readme.io/0343fcb-RAG_2.png" alt="drawing" width="700"/></p>
 
 <p><br/><br/><br/></p>
@@ -155,24 +204,65 @@ My role in this project was to make contributions to the codebase and to update 
 <!-- with [Ruben Hipp](https://sites.google.com/view/rubenhipp/home) at [Nova SBE](https://www.novasbe.unl.pt/en/) 2022 -->
 
 <!-- **Description:** -->
-<p>As a basis for some of my <a href="research">research papers</a>, substantial coding effort was necessary in the context of financial time series data.
-First, this project required extensive data acquisition from large databases via <strong><span class="caps">SQL</span></strong>.
-Then, the project samples representative data points and uses a <strong>data pre-processing pipeline</strong> to prepare estimation data over a rolling time interval.
-<a href="https://github.com/felixbrunner/euraculus">This repository</a> implements various <strong>object-oriented programs (<span class="caps">OOP</span>)</strong> for the estimation of <strong>regularized statistical learning</strong> algorithms with <strong>cross-validation</strong>.
-Finally, there are various flavors of <strong>statistical analysis</strong> to obtain the empirical results of the research papers.
-The code in the repository is written by myself, with conceptual help of my co-author <a href="https://sites.google.com/view/rubenhipp/home">Ruben Hipp</a>.</p>
+<!-- As a basis for some of my [research papers](research), substantial coding effort was necessary in the context of financial time series data.
+First, this project required extensive data acquisition from large databases via **SQL**.
+Then, the project samples representative data points and uses a **data pre-processing pipeline** to prepare estimation data over a rolling time interval.
+[This repository](https://github.com/felixbrunner/euraculus) implements various **object-oriented programs (OOP)** for the estimation of **regularized statistical learning** algorithms with **cross-validation**.
+Finally, there are various flavors of **statistical analysis** to obtain the empirical results of the research papers.
+The code in the repository is written by myself, with conceptual help of my co-author [Ruben Hipp](https://sites.google.com/view/rubenhipp/home). -->
+
+<h3>Overview:</h3>
+<p>The project aimed to enhance network estimation methodologies for economic and financial data analysis by leveraging machine learning methods. The primary objective was to develop robust models for the analysis of large-dimensional datasets to provide new insights in economic questions related to industrial production and stock market&nbsp;volatility.</p>
+<h3>Objectives:</h3>
+<ol>
+<li><strong>Methodology exploration:</strong> Explore and compare statistical learning algorithms for multivariate forecasting to identify the most suitable&nbsp;approach.</li>
+<li><strong>Data acquisition:</strong> Acquire datasets from <span class="caps">SQL</span> databases to ensure access to comprehensive and relevant financial time series&nbsp;data.</li>
+<li><strong>Automated pre-processing:</strong> Set up an automated pre-processing pipeline to handle large datasets and ensure data quality and&nbsp;consistency.</li>
+<li><strong>Model implementation:</strong> Develop object-oriented code to run cross-validated regularized machine learning algorithms for network&nbsp;estimation.</li>
+<li><strong>Statistical analysis:</strong> Conduct extensive statistical and econometric analyses to empirically evaluate the performance of the developed&nbsp;models.</li>
+<li><strong>Research publication:</strong> Author research papers presenting the results at academic standards and contribute to the advancement of knowledge in the field of applied&nbsp;econometrics.</li>
+</ol>
+<h3>Activities:</h3>
+<ol>
+<li><strong>Data acquisition:</strong> Acquireed financial time series data from large databases using <span class="caps">SQL</span>&nbsp;queries.</li>
+<li><strong>Data pre-processing:</strong> Implemented a data pre-processing pipeline to prepare estimation data over rolling time&nbsp;intervals.</li>
+<li><strong>Model development:</strong> Developed object-oriented programs for the estimation of regularized statistical learning algorithms with&nbsp;cross-validation.</li>
+<li><strong>Statistical analysis:</strong> Performed various flavors of statistical analysis to obtain empirical results for research&nbsp;papers.</li>
+<li><strong>Collaborative effort:</strong> Collaborated internationally to conceptualize and refine the research&nbsp;approach.</li>
+</ol>
+<h3>Outcome:</h3>
+<p>The project culminated in the publication of an acclaimed paper in <em>Quantitative Economics</em>, with follow-up papers currently under review. The developed methodologies and findings contribute to advancing the field of financial time series analysis and&nbsp;forecasting.</p>
+<h3>Stack:</h3>
+<p>pandas, numpy, time series forecasting, scikit-learn, python, <span class="caps">SQL</span>, glmnet, econometrics, vector auto-regression,&nbsp;networkx</p>
+<h3>Additional&nbsp;Details:</h3>
+<p>For more information on the research papers and the underlying code repository, visit the <a href="research">research page</a> and the <a href="https://github.com/felixbrunner/euraculus">GitHub repository</a>. The repository contains object-oriented programs for implementing regularized statistical learning algorithms with cross-validation, reflecting the culmination of substantial coding efforts in financial time series data analysis. The first related research publication with <a href="https://sites.google.com/view/rubenhip/home">Ruben Hipp</a> is available in <a href="https://www.econometricsociety.org/publications/quantitative-economics/2023/07/01/Estimating-Large-Dimensional-Connectedness-Tables-The-Great-Moderation-through-the-Lens-of-Sectoral-Spillovers"><em>Quantitative Economics</em></a>.</p>
+<p>published </p>
 <p align="center"><img src="/assets/graphs/contour_var.png" alt="drawing" width="550"/></p>
 
 <p><br/><br/><br/></p>
 <h2>System to predict success of police searches and <span class="caps">AI</span> fairness&nbsp;analysis</h2>
 <!-- LDSSA batch 4, 2020 -->
 
-<!-- **Description:** -->
-<p>This is a sample of work that I produced as a capstone project for the <a href="https://www.lisbondatascience.org/">Lisbon data science academy</a> (additional info in the wiki <a href="https://ldssa.github.io/wiki/">here</a>).
-Given a <strong>tabular dataset</strong> of <span class="caps">UK</span> police data, the goal of this mock project is to come up with a <strong>machine learning model</strong> to approve police searches to maximize success rates while minimizing discrimination.
-The main tasks are to perform detailed <strong>exploratory data analysis (<span class="caps">EDA</span>)</strong> with regards to existing stop and search practices, to develop a prediction system to &#8220;authorize&#8221; searches such that biases are mitigated, and to <strong>deploy</strong> this system as an accessible application via a responsive <strong><span class="caps">API</span> endpoint</strong>.
-More detailed reports about this project can be found <a href="https://docs.google.com/document/d/17R__XRJQlo-NuDK9H9dAb_7soOW80RDrAHdl_L5oI_o/edit?usp=sharing">here</a> and <a href="https://docs.google.com/document/d/1R-ibDWOvTEMWNsaBjlbt3BOdZ4dMhwDJlwd4FwDt0KQ/edit?usp=sharing">here</a>, with the respective code being hosted <a href="https://github.com/felixbrunner/capstone">here</a> and <a href="https://github.com/felixbrunner/capstone-deploy">here</a>.
-I prepared the implementation and analysis in this project by myself, which helped to develop good fundamentals in data science and machine learning&nbsp;pipelines. </p>
+<h3>Overview:</h3>
+<p>This project, conducted as a capstone project for the <a href="https://www.lisbondatascience.org/">Lisbon Data Science Academy</a>, focuses on developing a machine learning model to optimize police search approval decisions while minimizing discrimination. Using a tabular dataset of <span class="caps">UK</span> police data, the goal is to create a predictive system that maximizes search success rates while mitigating biases in stop and search&nbsp;practices.</p>
+<h3>Objectives:</h3>
+<ol>
+<li><strong>Exploratory data analysis (<span class="caps">EDA</span>):</strong> Conduct detailed <span class="caps">EDA</span> to understand existing stop and search practices and identify potential&nbsp;biases.</li>
+<li><strong>Model development:</strong> Develop a machine learning model to predict the authorization of police searches, ensuring fairness and&nbsp;effectiveness.</li>
+<li><strong>Deployment:</strong> Deploy the developed system as an accessible application via a responsive <span class="caps">API</span> endpoint for practical&nbsp;use.</li>
+</ol>
+<h3>Activities:</h3>
+<ol>
+<li><strong>Data exploration:</strong> Performed thorough <span class="caps">EDA</span> on the <span class="caps">UK</span> police dataset to uncover insights into stop and search practices and identify patterns related to search&nbsp;authorization.</li>
+<li><strong>Model building:</strong> Developed a predictive model using machine learning techniques to approve police searches while minimizing discrimination and maximizing success&nbsp;rates.</li>
+<li><strong>Deployment:</strong> Implemented the predictive system as an accessible application with a responsive <span class="caps">API</span> endpoint for easy access and&nbsp;utilization.</li>
+</ol>
+<h3>Outcome:</h3>
+<p>The project culminated in the development of a predictive model for police search approval, contributing to the optimization of stop and search practices while ensuring fairness and&nbsp;effectiveness.</p>
+<h3>Stack:</h3>
+<p>pandas, numpy, gradient boosting, scikit-learn, python, Flask,&nbsp;heroku</p>
+<h3>Additional details and&nbsp;links:</h3>
+<p>The implementation and analysis of this project were carried out independently, contributing to the development of strong fundamentals in data science and machine learning pipelines. Detailed reportsassociated with the project can be found <a href="https://docs.google.com/document/d/17R__XRJQlo-NuDK9H9dAb_7soOW80RDrAHdl_L5oI_o/edit?usp=sharing">here</a> and <a href="https://docs.google.com/document/d/1R-ibDWOvTEMWNsaBjlbt3BOdZ4dMhwDJlwd4FwDt0KQ/edit?usp=sharing">here</a>, related code repositories are available <a href="https://github.com/felixbrunner/capstone">here</a> and <a href="https://github.com/felixbrunner/capstone-deploy">here</a>.</p>
 <p align="center"><img src="/assets/drawings/capstone-pipeline.png" alt="drawing" width="700"/></p>
 
 <p><br/><br/><br/></p>
@@ -193,7 +283,7 @@ library to estimate and study layered probabilistic time series models
         </p>
     <p>
       <strong>About Felix Brunner</strong><br/>
-        Data Scientist and Researcher in Econometrics
+        Machine Learning Data Scientist and Researcher in Econometrics
     </p>
 </div><!-- Sidebar -->
 <section class="well well-sm">
