@@ -42,18 +42,18 @@
 }
 
 body {
-    font-family: Ubuntu, "times new roman", times, roman, serif;
+    font-family: "Ubuntu", "Helvetica Neue","Open Sans", Helvetica, Arial, sans-serif;
     /* font-size: 17px;
     color: black#333; */
     /* line-height: 1.628571; */
 }
-h1 {
+/* h1 {
     font-family: 'Good-Times', sans-serif;
     /* font-size: 36px;
     color: #333; */
-}
-h2 {
+/* } */
+/* h2 {
     font-family: 'Good-Times', sans-serif;
     /* font-size: 36px; */
     /* color: #333; */
-}
+/* } */
