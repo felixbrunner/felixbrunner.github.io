@@ -28,9 +28,20 @@
 */
 
 /* Edit font, spacing etc */
-body {
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(../assets/fonts/Ubuntu-R.ttf) format('ttf');
+}
+
+/* body {
     font-family: "Helvetica Neue","Open Sans",Helvetica,Arial,sans-serif;
     font-size: 17px;
     line-height: 1.628571;
     color: black;
+} */
+
+body {
+    font-family: Ubuntu, "times new roman", times, roman, serif;
 }
